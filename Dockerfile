@@ -1,4 +1,4 @@
-FROM ruby
+FROM ruby:2.4.0
 MAINTAINER labs-sydney
 
 RUN apt-get update && apt-get install -y postgresql
